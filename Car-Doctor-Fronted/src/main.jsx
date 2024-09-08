@@ -8,7 +8,7 @@ import { router } from './Routes/Routes';
 
 
 createRoot(document.getElementById('root')).render(
-  <div className='bg-white'>
+  <div className='bg-white max-w-7xl mx-auto'>
     <StrictMode>
     <RouterProvider router={router} />
   </StrictMode>
